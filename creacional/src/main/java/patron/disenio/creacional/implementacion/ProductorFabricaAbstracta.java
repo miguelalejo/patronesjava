@@ -1,8 +1,8 @@
-package patron.disenio.implementacion;
+package patron.disenio.creacional.implementacion;
 
 import patron.disenio.enumeracion.TipoFabrica;
 
-public class ProductorFabricaElectrodomesticoColor {
+public class ProductorFabricaAbstracta {
 
 	public FabricaAbstracta crearFabrica(TipoFabrica tipoFabrica) {
 		if (TipoFabrica.ELECTRODOMESTICO.equals(tipoFabrica)) {

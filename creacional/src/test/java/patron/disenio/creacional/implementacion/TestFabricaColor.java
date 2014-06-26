@@ -1,4 +1,4 @@
-package patron.disenio.implementacion;
+package patron.disenio.creacional.implementacion;
 
 import junit.framework.Assert;
 
@@ -28,7 +28,6 @@ public class TestFabricaColor {
 	private void crearColors() {
 		rojo = fabricaColor.crearColor(TipoColor.ROJO);
 		azul = fabricaColor.crearColor(TipoColor.AZUL);
-
 	}
 
 	@Test

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package patron.disenio.implementacion;
+package patron.disenio.creacional.implementacion;
 
 import patron.disenio.entidad.color.Azul;
 import patron.disenio.entidad.color.Rojo;

@@ -1,4 +1,4 @@
-package patron.disenio.implementacion;
+package patron.disenio.creacional.implementacion;
 
 import junit.framework.Assert;
 
@@ -16,9 +16,9 @@ import patron.disenio.interfaz.Color;
 import patron.disenio.interfaz.Electrodomestico;
 
 @RunWith(MockitoJUnitRunner.class)
-public class TestFabricaElectrodomesticoColor {
+public class TestProductorFabricaAbstracta {
 	@InjectMocks
-	ProductorFabricaElectrodomesticoColor productorFabricaElectrodomesticoColor;
+	ProductorFabricaAbstracta productorFabricaElectrodomesticoColor;
 
 	@Test
 	public void deberiaCrearUnTelevisor() {

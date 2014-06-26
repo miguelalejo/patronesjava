@@ -1,4 +1,4 @@
-package patron.disenio.implementacion;
+package patron.disenio.creacional.implementacion;
 
 import patron.disenio.enumeracion.TipoColor;
 import patron.disenio.enumeracion.TipoElectrodomestico;

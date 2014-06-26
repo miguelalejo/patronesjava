@@ -1,4 +1,4 @@
-package patron.disenio.implementacion;
+package patron.disenio.creacional.implementacion;
 
 import junit.framework.Assert;
 
